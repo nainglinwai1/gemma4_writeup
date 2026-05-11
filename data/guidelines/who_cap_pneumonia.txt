@@ -1,0 +1,77 @@
+WHO GUIDELINE: COMMUNITY-ACQUIRED PNEUMONIA (CAP) — SIMPLIFIED RURAL CLINIC VERSION
+Source: WHO Integrated Management of Adolescent and Adult Illness (IMAI), 2024 update
+
+ICD-10 CODES:
+- J18.9 — Pneumonia, unspecified organism
+- J15.9 — Unspecified bacterial pneumonia
+- J18.1 — Lobar pneumonia, unspecified organism
+
+DEFINITION:
+Community-acquired pneumonia (CAP) is an acute infection of the pulmonary parenchyma
+acquired outside of a hospital setting. It is one of the leading causes of morbidity
+and mortality in low-resource settings.
+
+CLINICAL FEATURES:
+One or more of:
+- Cough (productive or dry)
+- Fever (≥38°C) or hypothermia (<35.5°C in severe cases)
+- Pleuritic chest pain
+- Dyspnea or tachypnea (RR ≥20/min)
+
+Physical signs: dullness to percussion, bronchial breath sounds, crackles, reduced air entry.
+
+SEVERITY ASSESSMENT — CRB-65 Score (for use in primary care settings without labs):
+Score 1 point each for:
+  C — Confusion (new)
+  R — Respiratory rate ≥30/min
+  B — Systolic BP <90 mmHg OR diastolic BP ≤60 mmHg
+  65 — Age ≥65 years
+
+CRB-65 Score Interpretation:
+  0   → Low risk. Consider home treatment.
+  1-2 → Moderate risk. Hospital admission recommended.
+  3-4 → High risk. Urgent hospital admission. Consider ICU.
+
+SpO2 <92% on room air = marker of severity; consider referral.
+
+TREATMENT — Outpatient (mild CAP, CRB-65 = 0):
+FIRST LINE (non-penicillin-allergic):
+  Amoxicillin 500mg PO TDS × 5 days
+  OR Amoxicillin-Clavulanate 625mg PO TDS × 5 days (if aspiration suspected)
+
+PENICILLIN ALLERGY:
+  Azithromycin 500mg PO OD × 5 days
+  OR Doxycycline 100mg PO BD × 7 days (avoid in pregnancy)
+  OR Levofloxacin 750mg PO OD × 5 days (if available)
+
+Atypical coverage (if Mycoplasma/Chlamydia suspected):
+  Add Azithromycin 500mg OD × 5 days to beta-lactam
+
+TREATMENT — Inpatient (moderate-severe CAP, CRB-65 ≥1):
+  IV Benzylpenicillin 1.2g QDS + IV/PO Azithromycin 500mg OD
+  OR IV Co-amoxiclav 1.2g TDS + IV/PO Azithromycin 500mg OD (if penicillin-allergic: Levofloxacin 750mg IV/PO OD)
+  Duration: 5-7 days (switch to oral when clinically improving)
+
+SUPPORTIVE CARE:
+- Supplemental oxygen if SpO2 <94% (target 94-98%)
+- IV fluids if dehydrated or unable to take oral
+- Antipyretics (Paracetamol 1g QDS PRN)
+- Encourage fluid intake
+
+SPECIAL CONSIDERATIONS IN RURAL/RESOURCE-LIMITED SETTINGS:
+- If chest X-ray unavailable, clinical diagnosis is acceptable
+- TB must be excluded in endemic regions (productive cough >2 weeks, night sweats, weight loss)
+- HIV-positive patients: consider PCP (Pneumocystis jirovecii pneumonia) if CD4 <200; treat with Co-trimoxazole 960mg TDS × 21 days
+- Refer if: SpO2 <90%, unable to take oral medications, CRB-65 ≥2, clinical deterioration on therapy
+
+FOLLOW-UP:
+- Reassess in 48-72 hours if managed as outpatient
+- Clinical improvement expected within 3 days
+- Persistent fever or worsening → re-evaluate, consider TB, resistant organism, empyema
+
+PATIENT EDUCATION:
+- Complete the full antibiotic course even if feeling better
+- Rest and increase fluid intake
+- Return immediately if breathing worsens, confusion develops, or unable to eat/drink
+- Smoking cessation counseling if applicable
+- Pneumococcal and influenza vaccination for eligible patients (elderly, immunocompromised)

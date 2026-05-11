@@ -1,0 +1,16 @@
+{
+  "name": "MediScribe Rural",
+  "short_name": "MediScribe",
+  "description": "Offline-first clinical documentation assistant powered by Gemma 4",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#1a7f5a",
+  "icons": [
+    {
+      "src": "/static/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+WHO GUIDELINE: MALARIA DIAGNOSIS AND TREATMENT — RURAL/PRIMARY CARE
+Source: WHO Guidelines for the Treatment of Malaria, 4th Edition 2022
+
+ICD-10 CODES:
+- B50.9  — Plasmodium falciparum malaria, unspecified
+- B51.9  — Plasmodium vivax malaria without complication
+- B54    — Unspecified malaria
+- B50.0  — Plasmodium falciparum malaria with cerebral complications
+
+CLINICAL FEATURES — Uncomplicated Malaria:
+  - Fever (often cyclical) or history of fever in past 24-48h
+  - Chills, rigors, sweating
+  - Headache, myalgia, malaise, fatigue
+  - Nausea, vomiting, diarrhea
+  - May have: enlarged spleen, mild anemia, mild jaundice
+  
+SEVERE/COMPLICATED MALARIA (P. falciparum) — REFER URGENTLY:
+  Any ONE of the following:
+  - Cerebral malaria (impaired consciousness, seizures, coma)
+  - Severe anemia (Hb <7g/dL or severe pallor)
+  - Respiratory distress (deep breathing, acidosis)
+  - Hypoglycemia (glucose <2.2 mmol/L)
+  - Circulatory collapse (systolic BP <70mmHg)
+  - Abnormal bleeding
+  - Hyperparasitemia (>5% red cells parasitized)
+  - Hemoglobinuria (black urine)
+  - Jaundice (bilirubin >50μmol/L)
+  - Acute renal failure (creatinine >265μmol/L)
+
+DIAGNOSIS:
+  1. Rapid Diagnostic Test (RDT) — preferred in rural settings
+  2. Microscopy (gold standard where available)
+  3. Clinical diagnosis only if neither available and high suspicion
+
+Empiric treatment based on epidemiology is acceptable in high-transmission areas when tests unavailable.
+
+TREATMENT — Uncomplicated Falciparum Malaria:
+FIRST LINE: Artemisinin-based Combination Therapy (ACT) — based on national guideline:
+  Option 1: Artemether-Lumefantrine (AL)
+    Weight-based dosing, twice daily × 3 days with fat (improves absorption)
+    Adult (≥35kg): 4 tablets BD × 3 days at 0h, 8h, 24h, 36h, 48h, 60h
+  
+  Option 2: Artesunate-Amodiaquine (ASAQ)
+    Adult: 200mg/540mg OD × 3 days
+  
+  Option 3: Dihydroartemisinin-Piperaquine (DHP)
+    Adult: weight-based OD × 3 days
+
+  ⚠ DO NOT USE oral artemisinin monotherapy — promotes resistance
+
+Add Primaquine 0.25mg/kg single dose (for P. falciparum gametocyte clearance; check G6PD if possible)
+
+TREATMENT — Uncomplicated P. vivax Malaria:
+  Chloroquine 25mg base/kg over 3 days (10mg/kg day 1 & 2, 5mg/kg day 3) — if CQ-sensitive area
+  OR ACT if CQ-resistant vivax (check national policy)
+  PLUS Primaquine 0.25-0.5mg/kg/day × 14 days (radical cure; contraindicated in G6PD deficiency, pregnancy)
+  
+G6PD testing recommended before Primaquine; if unavailable, use with caution and monitor for hemolysis.
+
+TREATMENT — Severe Malaria (pre-referral):
+  IV/IM Artesunate (PREFERRED):
+    Adult: 2.4mg/kg IV at 0h, 12h, 24h, then daily
+    If IV not available: IM Artesunate or IM Artemether
+  
+  If artesunate unavailable: Quinine IV 20mg/kg loading dose over 4h infusion, then 10mg/kg TDS
+  
+  Pre-referral rectal artesunate (10mg/kg) if IV not possible and patient unable to take oral.
+
+FEVER MANAGEMENT:
+  Paracetamol 1g QDS PRN (avoid aspirin — platelet effects)
+  Tepid sponging for high fever
+
+ANTIMALARIAL DRUGS — PREGNANCY:
+  First trimester: Quinine + Clindamycin × 7 days (ACT if no alternative)
+  Second/Third trimester: ACT (Artemether-Lumefantrine preferred)
+  Avoid Primaquine in pregnancy
+
+PREVENTION — RURAL CONTEXT:
+  - Insecticide-treated bed nets (ITN) — universal coverage
+  - Indoor residual spraying (IRS)
+  - Intermittent preventive treatment in pregnancy (IPTp): SP (Sulfadoxine-Pyrimethamine) from 13 weeks, monthly
+  - Seasonal malaria chemoprevention (SMC) in Sahel: monthly SP+AQ for children
+
+WHEN TO REFER:
+  - Severe/complicated malaria (see above)
+  - Failure to respond to first-line ACT within 48h
+  - Recurrence within 28 days of treatment
+  - Pregnancy with severe malaria
+  - Very young children (<5kg) or infants
+
+PATIENT EDUCATION:
+  - Complete full 3-day course of ACT even if feeling better
+  - Bed nets every night
+  - Return immediately if: convulsions, unconsciousness, unable to take medications, worsens after 48h
+  - Pregnant women: attend ANC for IPTp doses

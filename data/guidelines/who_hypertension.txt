@@ -1,0 +1,100 @@
+WHO/ISH GUIDELINE: HYPERTENSION MANAGEMENT IN PRIMARY CARE
+Source: WHO/ISH 2023 Hypertension Guidelines & WHO HEARTS Technical Package
+
+ICD-10 CODES:
+- I10   — Essential (primary) hypertension
+- I11.9 — Hypertensive heart disease without heart failure
+- I13.10 — Hypertensive heart and chronic kidney disease
+- I16.0 — Hypertensive urgency
+- I16.1 — Hypertensive emergency
+
+DEFINITION:
+Hypertension: sustained systolic BP ≥140 mmHg and/or diastolic BP ≥90 mmHg
+on ≥2 separate readings on ≥2 occasions.
+
+STAGING (2023):
+  Normal:          SBP <120 and DBP <80
+  Elevated (prehypertension): SBP 120-129 and DBP <80
+  Stage 1 HTN:     SBP 130-139 or DBP 80-89
+  Stage 2 HTN:     SBP ≥140 or DBP ≥90
+  Hypertensive Urgency:  SBP ≥180 and/or DBP ≥120, no target organ damage
+  Hypertensive Emergency: SBP ≥180 and/or DBP ≥120, WITH target organ damage
+
+TARGET ORGAN DAMAGE — look for:
+- Cardiac: LVH, heart failure, angina, MI
+- Cerebral: stroke, TIA, cognitive impairment
+- Renal: CKD, proteinuria
+- Eyes: retinopathy
+- Peripheral vascular disease
+
+CARDIOVASCULAR RISK STRATIFICATION:
+Low risk:    Stage 1 HTN, no additional risk factors
+Medium risk: Stage 1-2 HTN, 1-2 risk factors
+High risk:   Stage 2 HTN, ≥3 risk factors, or target organ damage, or diabetes, or CKD
+
+TREATMENT INITIATION:
+- Lifestyle modification for ALL patients
+- Drug therapy: initiated at Stage 1 if high CV risk, or at Stage 2 for all
+
+LIFESTYLE MODIFICATIONS (ABCDE):
+  A — Alcohol restriction (<2 units/day)
+  B — Blood pressure monitoring at home
+  C — Cessation of smoking
+  D — Diet: DASH diet, restrict salt to <5g/day, increase fruit/vegetables
+  E — Exercise: ≥150 min moderate aerobic activity/week, weight reduction
+
+FIRST-LINE MEDICATIONS (WHO HEARTS simplified protocol):
+STEP 1 (Monotherapy):
+  - Amlodipine 5mg OD (CCB) — preferred in elderly, Afro-Caribbean, isolated systolic
+  - OR Lisinopril 5-10mg OD (ACEi) — preferred in diabetics, proteinuria, heart failure
+  - OR Losartan 50mg OD (ARB) — if ACEi not tolerated (cough)
+  - OR Hydrochlorothiazide 12.5-25mg OD (thiazide) — add-on preferred
+
+STEP 2 (Dual therapy — if BP not controlled on monotherapy):
+  - Amlodipine + ACEi/ARB (preferred combination)
+  - OR ACEi/ARB + Thiazide
+  AVOID: ACEi + ARB combination (increased renal risk)
+
+STEP 3 (Triple therapy):
+  - Amlodipine + ACEi/ARB + Thiazide
+
+STEP 4 (Resistant hypertension — refer if possible):
+  - Add Spironolactone 25-50mg OD
+  - OR Bisoprolol 5-10mg OD (especially if heart failure/tachycardia)
+  - OR Alpha-blocker (Doxazosin 4mg OD)
+
+SPECIAL POPULATIONS:
+Diabetes: Target BP <130/80. Prefer ACEi or ARB (renoprotective).
+CKD: Target <130/80. ACEi/ARB preferred. Avoid thiazide if eGFR <30.
+Elderly (≥65y): Target 130-139/70-79. Start low, go slow. Avoid postural hypotension.
+Pregnancy: Use Methyldopa, Nifedipine, Labetalol. AVOID ACEi, ARB, thiazide.
+Heart failure: ACEi/ARB + low-dose beta-blocker. Avoid CCB (neg. inotropy).
+
+HYPERTENSIVE URGENCY (no target organ damage):
+- Reduce BP over 24-48 hours (rapid reduction is dangerous)
+- Oral Amlodipine 5mg, or oral Nifedipine modified-release 30mg
+- Increase existing antihypertensive
+- Review at 48-72 hours
+
+HYPERTENSIVE EMERGENCY (with target organ damage):
+- REFER IMMEDIATELY to higher-level facility
+- IV Labetalol (if available) or oral Nifedipine SR
+- Do NOT use Nifedipine capsules sublingually (rapid drop = stroke risk)
+- IV Hydralazine for hypertensive emergency in pregnancy
+
+MONITORING:
+- Monthly until BP <140/90, then every 3-6 months
+- Annual: electrolytes, creatinine, fasting glucose, urine dipstick
+- Adherence assessment at every visit (pill count, BP diary)
+
+MEDICATION ADHERENCE — rural context:
+- Once-daily dosing improves adherence
+- Involve family members in BP monitoring
+- Fixed-dose combinations preferred (fewer pills)
+- Community health worker reinforcement visits recommended
+
+PATIENT EDUCATION:
+- Hypertension is a lifelong condition; medications usually life-long
+- Do not stop medications when BP "feels normal"
+- Home BP monitoring: sit quietly 5 min, 2 readings 1-2 min apart, morning and evening
+- Signs of emergency: severe headache, blurred vision, chest pain, focal neurological symptoms → seek care immediately

@@ -1,0 +1,103 @@
+WHO GUIDELINE: TYPE 2 DIABETES MELLITUS — PRIMARY CARE MANAGEMENT
+Source: WHO 2022 Global Diabetes Compact & IDF Clinical Practice Recommendations 2023
+
+ICD-10 CODES:
+- E11.9  — Type 2 diabetes mellitus without complications
+- E11.65 — Type 2 diabetes mellitus with hyperglycemia
+- E11.649 — Type 2 DM with hypoglycemia
+- E11.40 — Type 2 DM with diabetic neuropathy, unspecified
+- E11.319 — Type 2 DM with unspecified diabetic retinopathy
+- E11.65 — Type 2 DM with hyperglycemia (DKA: E11.10)
+
+DIAGNOSTIC CRITERIA (any one of):
+  1. Fasting plasma glucose ≥7.0 mmol/L (126 mg/dL) — confirmed on 2 occasions
+  2. 2h plasma glucose ≥11.1 mmol/L during 75g OGTT
+  3. HbA1c ≥48 mmol/mol (≥6.5%)
+  4. Random plasma glucose ≥11.1 mmol/L with symptoms of hyperglycemia
+
+If results borderline or equivocal, repeat test on a different day.
+
+GLYCEMIC TARGETS:
+  HbA1c < 53 mmol/mol (<7.0%) — general target
+  HbA1c < 48 mmol/mol (<6.5%) — if achievable without hypoglycemia (younger, early diagnosis)
+  HbA1c < 64 mmol/mol (<8.0%) — frail elderly, limited life expectancy, hypoglycemia-prone
+
+Fasting glucose: 4.0-7.0 mmol/L
+Post-prandial (2h):  <10.0 mmol/L
+
+LIFESTYLE INTERVENTIONS (first-line for all):
+- Weight loss 5-10% if overweight: significant glycemic benefit
+- Physical activity: 150 min/week moderate intensity
+- Medical nutrition therapy: reduce refined carbs, increase fibre, limit saturated fat
+- Self-monitoring of blood glucose (SMBG) if available
+
+PHARMACOTHERAPY — Step-wise approach:
+
+STEP 1 — Monotherapy:
+  FIRST LINE: Metformin 500mg OD with food, titrate to 500-1000mg BD/TDS over 4-8 weeks
+  (MAX: 2000mg/day; avoid if eGFR <30)
+  
+  ALTERNATIVES if Metformin contraindicated/not tolerated:
+  - SGLT2 inhibitor (Empagliflozin 10mg OD) — cardiorenal benefits, weight neutral
+  - Sulfonylurea (Glibenclamide 2.5-5mg OD-BD or Gliclazide MR 30mg OD)
+    ⚠ Risk of hypoglycemia — use with caution in elderly
+
+STEP 2 — Dual therapy (HbA1c not at target after 3 months):
+  Metformin + one of:
+  - SGLT2 inhibitor (preferred if CV/renal disease)
+  - GLP-1 agonist (if available: Liraglutide 0.6-1.2mg SC OD — weight loss benefit)
+  - Sulfonylurea (cost-effective, widely available)
+  - DPP-4 inhibitor (Sitagliptin 100mg OD) — well tolerated, low hypoglycemia risk
+
+STEP 3 — Triple therapy:
+  Metformin + SGLT2i + Sulfonylurea, or
+  Metformin + two oral agents as above
+
+STEP 4 — Insulin:
+  Basal insulin (Insulin Glargine 10 units SC at bedtime, titrate by 2 units every 3 days)
+  OR Intermediate insulin (NPH Insulin BD if Glargine unavailable)
+  Continue Metformin, consider stopping sulfonylurea when insulin started
+
+HYPOGLYCEMIA MANAGEMENT:
+  Mild (conscious): 15g fast-acting carbohydrate (glucose tabs, sugary drink, 3-4 biscuits)
+  Repeat in 15 min if not improved; follow with complex carb snack
+  Severe (unconscious): IV Dextrose 50% 25mL; or Glucagon 1mg IM if available
+  Identify cause: missed meal, excess dose, unusual activity, alcohol
+
+CARDIOVASCULAR RISK REDUCTION:
+  - Aspirin 75mg OD (if established CVD or high CV risk, >40yo)
+  - Statin (Atorvastatin 20-40mg OD) — all T2DM >40yo with CV risk factors
+  - ACEi/ARB if hypertensive or proteinuric
+  - BP target <130/80 mmHg
+
+DIABETES COMPLICATIONS — ANNUAL SCREENING:
+  Kidneys: urine albumin:creatinine ratio (ACR), serum creatinine/eGFR
+  Eyes: fundoscopy (refer to ophthalmology if retinopathy)
+  Feet: monofilament test, pedal pulses, visual inspection (every visit)
+  Neuropathy: 10g monofilament, ankle reflexes, vibration sense
+  Cardiovascular: ECG, lipid profile
+
+DIABETIC FOOT CARE (rural setting):
+  - Daily foot inspection
+  - Proper footwear — no bare feet
+  - Prompt wound care: refer ulcers to wound care specialist
+  - ANY foot ulcer = urgent review; infected ulcer = IV antibiotics, referral
+
+SPECIAL POPULATIONS — RURAL CONTEXT:
+  If HbA1c unavailable: use fasting glucose to monitor
+  If SMBG strips limited: prioritize fasting and pre-meal monitoring
+  Metformin and Glibenclamide on WHO Essential Medicines List — widely available
+  Insulin storage: standard refrigeration 2-8°C; room temp ≤25°C for 28 days (open vial)
+
+SICK DAY RULES:
+  - Do NOT stop medications during illness (except Metformin if vomiting/dehydrated)
+  - Monitor glucose more frequently
+  - Maintain fluid intake
+  - Seek care if: glucose >16 mmol/L, severe vomiting, unable to eat for >24h
+
+PATIENT EDUCATION:
+  - Understand the link between food, activity, and glucose
+  - Recognize hypoglycemia symptoms: shakiness, sweating, confusion, palpitations
+  - Always carry fast-acting glucose
+  - Importance of foot care and not going barefoot
+  - Medication adherence: never stop without talking to health worker

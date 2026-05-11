@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediScribe Rural — Offline Clinical Assistant</title>
+  <link rel="manifest" href="/static/manifest.json" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect width="32" height="32" rx="8" fill="#1a7f5a"/>
+        <path d="M16 7v18M7 16h18" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <span>MediScribe <em>Rural</em></span>
+    </div>
+    <div class="status-bar">
+      <span id="model-badge" class="badge badge-gray">Connecting…</span>
+      <span id="kb-badge" class="badge badge-blue">— chunks</span>
+      <span id="offline-badge" class="badge badge-offline hidden">● Offline Mode</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Left panel: Input -->
+    <section class="panel panel-input">
+      <h2>Patient Encounter Note</h2>
+      <p class="hint">Paste or type the encounter note below. MediScribe runs entirely on your device — no data leaves this machine.</p>
+
+      <div class="field-row">
+        <label for="lang-select">Language</label>
+        <select id="lang-select">
+          <option value="en">English</option>
+          <option value="sw">Swahili</option>
+          <option value="fr">French</option>
+          <option value="pt">Portuguese</option>
+          <option value="ar">Arabic</option>
+          <option value="hi">Hindi</option>
+          <option value="es">Spanish</option>
+          <option value="zh">Chinese</option>
+        </select>
+        <label for="topk-select" style="margin-left:1rem">Guidelines (RAG top-k)</label>
+        <select id="topk-select">
+          <option value="2">2</option>
+          <option value="4" selected>4</option>
+          <option value="6">6</option>
+        </select>
+      </div>
+
+      <textarea id="note-input" rows="18" placeholder="e.g.: 35-year-old female presenting with 3-day history of productive cough, fever 38.9°C, and right-sided chest pain. BP 118/76, HR 94, RR 22, SpO2 94% on room air. Reduced breath sounds right base. No known drug allergies. Currently on no medications."></textarea>
+
+      <div class="btn-row">
+        <button id="submit-btn" class="btn btn-primary" onclick="processNote()">
+          ⚕ Generate SOAP Note
+        </button>
+        <button class="btn btn-secondary" onclick="clearAll()">Clear</button>
+        <button class="btn btn-secondary" onclick="loadDemo()">Load Demo</button>
+      </div>
+
+      <!-- Guideline upload -->
+      <details class="upload-section">
+        <summary>📂 Upload Clinical Guideline</summary>
+        <p>Upload PDF or TXT files to expand the local knowledge base.</p>
+        <input type="file" id="guideline-file" accept=".pdf,.txt" />
+        <button class="btn btn-sm" onclick="uploadGuideline()">Upload</button>
+        <div id="upload-status"></div>
+      </details>
+    </section>
+
+    <!-- Right panel: Output -->
+    <section class="panel panel-output">
+      <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Gemma 4 is analyzing the encounter note…</p>
+        <p class="hint">Running locally on your device</p>
+      </div>
+
+      <!-- Alerts -->
+      <div id="alerts-container"></div>
+
+      <!-- Extracted entities -->
+      <div id="entities-container" class="hidden">
+        <h3>Extracted Clinical Entities</h3>
+        <div id="entities-content"></div>
+      </div>
+
+      <!-- SOAP Note -->
+      <div id="soap-container" class="hidden">
+        <div class="soap-header">
+          <h3>SOAP Note</h3>
+          <div class="soap-actions">
+            <button class="btn btn-sm" onclick="copySOAP()">📋 Copy</button>
+            <button class="btn btn-sm" onclick="printSOAP()">🖨 Print</button>
+          </div>
+        </div>
+        <div id="soap-content" class="soap-content"></div>
+        <div id="guideline-ref" class="guideline-ref"></div>
+      </div>
+
+      <div id="empty-state" class="empty-state">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+          <rect width="64" height="64" rx="16" fill="#f0faf5"/>
+          <path d="M32 14v36M14 32h36" stroke="#1a7f5a" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+        </svg>
+        <p>Enter an encounter note and click <strong>Generate SOAP Note</strong></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

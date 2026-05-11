@@ -1,0 +1,178 @@
+/* =====================================================================
+   MediScribe Rural — Stylesheet
+   ===================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green:      #1a7f5a;
+  --green-lt:   #f0faf5;
+  --green-mid:  #d1f0e0;
+  --red:        #c0392b;
+  --red-lt:     #fdf2f1;
+  --amber:      #d68910;
+  --amber-lt:   #fef9e7;
+  --blue:       #1a5276;
+  --blue-lt:    #eaf2fb;
+  --gray:       #5d6d7e;
+  --gray-lt:    #f4f6f8;
+  --text:       #1c2833;
+  --border:     #ccd6e0;
+  --radius:     10px;
+  --shadow:     0 2px 12px rgba(0,0,0,.08);
+  --font:       system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--gray-lt);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ── */
+header {
+  background: var(--green);
+  color: #fff;
+  padding: .75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+.logo { display: flex; align-items: center; gap: .6rem; font-size: 1.2rem; font-weight: 700; }
+.logo em { font-style: normal; font-weight: 300; opacity: .8; }
+.status-bar { display: flex; gap: .5rem; align-items: center; }
+
+/* ── Badges ── */
+.badge {
+  font-size: .72rem; font-weight: 600; padding: .2rem .6rem;
+  border-radius: 999px; white-space: nowrap;
+}
+.badge-gray   { background: rgba(255,255,255,.2); color: #fff; }
+.badge-blue   { background: rgba(255,255,255,.15); color: #d6eaf8; }
+.badge-green  { background: #27ae60; color: #fff; }
+.badge-red    { background: #c0392b; color: #fff; }
+.badge-offline{ background: #f39c12; color: #fff; }
+.hidden { display: none !important; }
+
+/* ── Main layout ── */
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+/* ── Panels ── */
+.panel {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: .85rem;
+}
+.panel h2 { font-size: 1.05rem; color: var(--green); border-bottom: 2px solid var(--green-mid); padding-bottom: .4rem; }
+.hint { font-size: .82rem; color: var(--gray); }
+
+/* ── Form elements ── */
+.field-row { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+label { font-size: .82rem; font-weight: 600; color: var(--gray); }
+select {
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: .3rem .5rem; font-size: .85rem; background: #fff;
+}
+textarea {
+  width: 100%; resize: vertical; border: 1px solid var(--border);
+  border-radius: var(--radius); padding: .75rem; font-size: .9rem;
+  font-family: var(--font); line-height: 1.55; outline: none;
+  transition: border-color .2s;
+}
+textarea:focus { border-color: var(--green); }
+
+/* ── Buttons ── */
+.btn-row { display: flex; gap: .6rem; flex-wrap: wrap; }
+.btn {
+  padding: .55rem 1.1rem; border-radius: 7px; border: none;
+  cursor: pointer; font-weight: 600; font-size: .88rem;
+  transition: opacity .15s, transform .1s;
+}
+.btn:active { transform: scale(.97); }
+.btn-primary  { background: var(--green); color: #fff; }
+.btn-primary:hover { opacity: .9; }
+.btn-secondary{ background: var(--gray-lt); color: var(--text); border: 1px solid var(--border); }
+.btn-secondary:hover { background: var(--green-mid); }
+.btn-sm { padding: .3rem .7rem; font-size: .8rem; background: var(--gray-lt); border: 1px solid var(--border); border-radius: 6px; cursor: pointer; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ── Upload section ── */
+.upload-section {
+  border: 1px dashed var(--border); border-radius: var(--radius);
+  padding: .75rem 1rem; font-size: .85rem;
+}
+.upload-section summary { cursor: pointer; font-weight: 600; color: var(--green); }
+.upload-section p { margin: .4rem 0; color: var(--gray); }
+#upload-status { margin-top: .4rem; font-size: .82rem; }
+
+/* ── Loading spinner ── */
+.loading { display: flex; flex-direction: column; align-items: center; gap: .75rem; padding: 3rem 1rem; }
+.spinner {
+  width: 48px; height: 48px; border: 4px solid var(--green-mid);
+  border-top-color: var(--green); border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Alerts ── */
+.alert {
+  border-radius: var(--radius); padding: .75rem 1rem;
+  margin-bottom: .5rem; border-left: 4px solid;
+}
+.alert-critical { background: var(--red-lt); border-color: var(--red); }
+.alert-urgent   { background: var(--amber-lt); border-color: var(--amber); }
+.alert-routine  { background: var(--blue-lt); border-color: var(--blue); }
+.alert-title { font-weight: 700; font-size: .9rem; }
+.alert-body  { font-size: .84rem; margin-top: .25rem; }
+
+/* ── Entities ── */
+#entities-container { background: var(--green-lt); border-radius: var(--radius); padding: 1rem; }
+#entities-container h3 { color: var(--green); font-size: .95rem; margin-bottom: .6rem; }
+.entity-section { margin-bottom: .6rem; }
+.entity-section h4 { font-size: .8rem; text-transform: uppercase; color: var(--gray); margin-bottom: .3rem; }
+.tag {
+  display: inline-block; background: #fff; border: 1px solid var(--border);
+  border-radius: 5px; padding: .15rem .5rem; margin: .15rem;
+  font-size: .8rem;
+}
+.tag-icd { color: var(--green); font-weight: 700; }
+.tag-med  { color: var(--blue); }
+.tag-vital{ color: var(--gray); font-family: monospace; }
+
+/* ── SOAP Note ── */
+.soap-header { display: flex; justify-content: space-between; align-items: center; }
+.soap-header h3 { color: var(--green); font-size: .95rem; }
+.soap-actions { display: flex; gap: .4rem; }
+.soap-content {
+  background: var(--gray-lt); border-radius: var(--radius);
+  padding: 1rem; font-size: .88rem; line-height: 1.65;
+  white-space: pre-wrap; word-break: break-word;
+  max-height: 60vh; overflow-y: auto;
+}
+.soap-content strong { color: var(--green); }
+.guideline-ref { font-size: .78rem; color: var(--gray); margin-top: .4rem; font-style: italic; }
+
+/* ── Empty state ── */
+.empty-state {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 1rem;
+  color: var(--gray); text-align: center; padding: 3rem 1rem;
+}
