@@ -1,4 +1,4 @@
-name: mediascribe
+name: mediscribe
 channels:
   - conda-forge
   - defaults
@@ -141,4 +141,3 @@ dependencies:
       - websocket-client==1.9.0
       - websockets==16.0
       - zipp==3.23.1
-prefix: /home/mechine/anaconda3/envs/mediascribe
