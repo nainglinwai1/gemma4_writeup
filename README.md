@@ -115,13 +115,3 @@ OLLAMA_MODEL=gemma4:e4b      # default (edge, fast)
 conda activate mediscribe
 pytest tests/ -v
 ```
-
-## Competition Tracks
-
-- **Health & Sciences** ($10K) — directly addresses rural healthcare documentation
-- **Ollama Special Tech** ($10K) — showcases Gemma 4 running locally via Ollama
-- **Main Track** — real-world impact + technical depth
-
-## License
-
-CC-BY 4.0
